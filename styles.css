@@ -20,7 +20,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px ;
+  padding: 10px 20px;
 
 }
 nav h2 span {
@@ -109,7 +109,8 @@ nav .fa {
 
 #header {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
+  padding-bottom: 20px;
   /* background: url("images/background2.jpg") no-repeat center; */
 }
 .hero-text {
@@ -127,11 +128,28 @@ nav .fa {
 }
 
 /* --------------About section ----------------- */
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90%;
+}
+.hero-text{
+  flex: 35%;
+}
+.image{
+  flex-basis: 60%;
+}
+.image img{
+  width: 100%;
+ 
+}
 .about--container {
   display: flex;
   justify-content: space-between;
   height: 100vh;
   overflow: hidden;
+  padding-top: 40px;
 }
 .about--container .col-1 {
   flex-basis: 35%;
@@ -203,7 +221,7 @@ nav .fa {
   color: var(--red-4);
 } 
 
-/* -------My Work ------- */
+/* ------------------My Work ------------------------ */
 .portfollio-section{
   height: 100vh;
   padding: 20px;
@@ -214,6 +232,8 @@ nav .fa {
   justify-content: space-around;
   width: 95%;
   padding: 40px 0;
+  flex-wrap: wrap;
+  gap: 40px;
   margin-inline: auto;
   
 }
